@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Shopping Cart - Bloom Valley Nursery</title>
+  </head>
+    
+  <body>    
+    <header>
+      <div class="header-content">
+        <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bloom Valley Nursery Logo" class="logo">
+        <h1>Shopping Cart</h1>
+      </div>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.html" class="active">Shopping Cart</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cart-section">
+        <h2>Your Cart</h2>
+        <div class="cart-items" id="cartItems">
+          <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-summary">
+          <h3>Cart Summary</h3>
+          <p>Total Items: <span id="totalItems">0</span></p>
+          <p>Total Amount: $<span id="totalAmount">0.00</span></p>
+          <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cart.html">Shopping Cart</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="#">Subscribe to Newsletter</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </footer>
+    <script src="cart.js"></script>
+  </body>
+</html>
